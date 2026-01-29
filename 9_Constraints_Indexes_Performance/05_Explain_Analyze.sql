@@ -1,0 +1,4 @@
+-- EXPLAIN and ANALYZE
+
+EXPLAIN SELECT * FROM students WHERE age > 20;
+EXPLAIN ANALYZE SELECT * FROM students WHERE age > 20;

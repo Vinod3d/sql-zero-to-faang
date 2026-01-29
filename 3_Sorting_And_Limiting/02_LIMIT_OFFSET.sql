@@ -1,0 +1,4 @@
+-- LIMIT and OFFSET
+
+SELECT * FROM students LIMIT 10;
+SELECT * FROM students LIMIT 10 OFFSET 5;

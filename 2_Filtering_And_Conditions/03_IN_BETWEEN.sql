@@ -1,0 +1,4 @@
+-- IN and BETWEEN
+
+SELECT * FROM students WHERE age IN (20, 21, 22);
+SELECT * FROM students WHERE age BETWEEN 20 AND 25;

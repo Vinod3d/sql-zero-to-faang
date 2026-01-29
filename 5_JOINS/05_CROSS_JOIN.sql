@@ -1,0 +1,3 @@
+-- CROSS JOIN
+
+SELECT * FROM colors CROSS JOIN sizes;

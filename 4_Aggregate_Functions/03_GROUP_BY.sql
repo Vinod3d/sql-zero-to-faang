@@ -1,0 +1,4 @@
+-- GROUP BY
+
+SELECT department, COUNT(*) FROM employees GROUP BY department;
+SELECT department, AVG(salary) FROM employees GROUP BY department;
